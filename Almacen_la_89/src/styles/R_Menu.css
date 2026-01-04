@@ -1,0 +1,38 @@
+.R-Menu{
+    margin: 0;
+    border-radius: 20px;
+    color: #000;
+    background: #2224;
+    width: 500px;
+    height: 500px;
+}
+
+.R-Menu-header{
+    justify-items: center;
+}
+
+.R-Menu-descripcion{
+
+}
+
+.R-Menu-info{
+
+}
+
+.R-Menu-img{
+    margin: 0;
+    display: flex;
+    width: auto;
+    height: 250px;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.R-Menu-button{
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-color: transparent;
+
+}
+

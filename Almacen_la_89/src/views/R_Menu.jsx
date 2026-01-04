@@ -1,3 +1,5 @@
+import "../styles/R_Menu.css"
+
 export function R_Menu ({ name, descripcion, imagen }){
 
     return(
@@ -11,7 +13,7 @@ export function R_Menu ({ name, descripcion, imagen }){
             </header>
 
             <aside>
-                <button className="R-Menu-boton">
+                <button className="R-Menu-button">
                     Entrar
                 </button>
             </aside>
