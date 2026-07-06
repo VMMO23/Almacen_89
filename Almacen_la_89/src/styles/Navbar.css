@@ -1,0 +1,62 @@
+
+/* No olvidar el font-family, font-weight, font-size*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-header li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: #434343;
+    border:1px solid transparent;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+
+.navbar-logo{
+    cursor: pointer;
+    margin-left: 15px;
+    width: 60px;
+    height: 50px;
+}
+
+.navbar-li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-li li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-li li, a:hover{
+    color: #009fbb;
+}
+
+.navbar-button{
+    margin-right: 10px;
+    padding: 9px 25px;
+    background-color: #c32020;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-button:hover{
+    color: #151414;
+    font-weight: 600;
+}
