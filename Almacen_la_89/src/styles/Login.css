@@ -1,0 +1,37 @@
+.login-container{
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 600px;
+    font-family: sans-serif;
+}
+
+.login-title{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+.login-label{
+    margin: 10px;
+}
+
+.login-input{
+    padding: 5px;
+    margin: 10px;
+}
+
+.login-button{
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #b3c9eb;
+    padding: 10px;
+    margin: 20px;
+}
+
+.login-button:hover{
+    cursor:pointer;
+    color: #000;
+    transition: 1s;
+}
