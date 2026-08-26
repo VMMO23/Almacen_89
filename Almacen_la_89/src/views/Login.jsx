@@ -4,7 +4,7 @@ import "../styles/Login.css"
 function Login(){
 
     return(
-
+        
         <form className="login-container">
 
             <h1 className="login-title"> Iniciar Sesión</h1>
@@ -16,10 +16,13 @@ function Login(){
             <input className="login-input" type="password" id="contraseña" placeholder="Contraseña"></input>
             <br></br>
             <button className="login-button" type="submit"> Iniciar sesión</button>
-        </form>    
+            <div>
+                <a href="">¿Olvide mi contraseña?</a>
+                <button className="login-button">Crear nueva cuenta</button>
+            </div>
+            
+        </form>
     )
-
-
 }
 
 export default Login
